@@ -75,7 +75,7 @@ const questions={
             {text:"Alexander Fleming",correct:true},
             {text:"Louis Pasteur",correct:false},
             {text:"Jonas Salk",correct:false},
-            {text:" Robert Koch",correct:false},
+            {text:"Robert Koch",correct:false},
         ]
     },
 
@@ -85,7 +85,7 @@ const questions={
             {text:"Seven meter",correct:true},
             {text:"Eight meter",correct:false},
             {text:"Five meter",correct:false},
-            {text:" Nine meter",correct:false},
+            {text:"Nine meter",correct:false},
         ]
     },
     {
@@ -108,7 +108,7 @@ medium:[
             {text:"Hinge joints",correct:false},
             {text:"Condyloid joints",correct:false},
             {text:"Pivot joints",correct:false},
-            {text:"The shoulder joint",correct:true},
+            {text:"Shoulder joint",correct:true},
         ]
     },
 
@@ -135,7 +135,7 @@ medium:[
         answers:[
             {text:"Cerebellar Cortex",correct:false},
             {text:"Hypothalamus",correct:false},
-            {text:"cerebellum",correct:true},
+            {text:"Cerebellum",correct:true},
             {text:"Parietal Lobe",correct:false},
         ]
     },
