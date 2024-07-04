@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>QUIZ</title>
+</head>
+<body>
+ <!---------------------------------MENU SECTION-------------------------------->
+        <section class="menu" id="menu">
+            <h1>QUIZ</h1>
+            <h2>CHOOSE YOUR CHOICE</h2>
+            <button id="simple-question-btn">SIMPLE</button>
+            <button id="medium-question-btn">MEDIUM</button>
+            <button id="hard-question-btn">HARD</button>
+        </section>
+
+ <!---------------------------------SIMPLE QUESTION SECTION-------------------------------->
+        <section class="question-section" id="question-section" style="display:none;">
+            <h1 id="questionmode">QUESTION</h1>
+            <div class="quiz-question">
+                <h2 id="question">QUESTION GOES HERE</h2>
+                <div id="answer-btn">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+                <div class="back-next-btn">
+                  <button id="back-home">HOME</button>
+                  <button id="next-btn">NEXT</button>
+                </div>
+            </div>
+        </section>
+
+         <!---------------------------------RESULT SECTION-------------------------------->
+<section id="result-section" style="display:none;">
+    <div class="result-list">
+    <div id="result-text"></div>
+    <div id="emoji-1">
+        <div class="face-1">
+            <div class="eyes-1">
+                <div class="eye-1"></div>
+                <div class="eye-1"></div>
+            </div>
+        </div>
+    </div> 
+    <div id="emoji-2">
+        <div class="face-2">
+            <div class="eyes-2">
+                <div class="eye-2"></div>
+                <div class="eye-2"></div>
+            </div>
+        </div>
+    </div> 
+    <button id="play-again" style="display: none;">PLAY AGAIN</button>
+</div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
